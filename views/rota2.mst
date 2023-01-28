@@ -1,0 +1,19 @@
+<!---
+<ul>
+{{#projeto}}
+<li>Sigla: {{Sigla}}  -  Disciplina: {{Disciplina}} -  Observação: {{Observacao}}
+<br>
+{{/projeto}}
+-->
+{{>header}}
+<table>
+<tr>
+<th>Disciplina</th>
+<th>Observacao</th>
+{{#projeto}}
+<tr>
+<td>{{Disciplina}}</td>
+<td>{{Observacao}}</td>
+</tr>
+{{/projeto}}
+</table>
